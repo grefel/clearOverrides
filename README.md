@@ -1,4 +1,5 @@
 ## Clear Style overrides in InDesign documents
+Clear style overrides from InDesign Text, Tables or Objects
 
 ![GUI of clearOverrides.jsx](docs/GUI.png)
 
