@@ -5,7 +5,7 @@ Clear style overrides from InDesign Text, Tables or Objects. After running this 
 
 A little user interface helps you to select what the script will clear:
 
-<img src="https://github.com/grefel/clearOverrides/blob/master/docs/GUI.png" width="500px"/>
+<img src="https://github.com/grefel/clearOverrides/blob/master/docs/GUI.png" width="600px"/>
 
 
 ## How to install
