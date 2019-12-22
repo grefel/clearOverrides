@@ -1,5 +1,9 @@
-## Clear Style overrides in InDesign documents
-Clear style overrides from InDesign Text, Tables or Objects
+## Clear style overrides in InDesign documents
+Clear style overrides from InDesign Text, Tables or Objects. After running this script any overriden attributes ![override](docs/override.png) will be resetted. For fine tuning, you can limit the process to objects or text formatted with a particular style.
+
+**Run this script at the beginning of your work, or if you know what you do.**
+
+A little user interface helps you to select what the script will clear:
 
 ![GUI of clearOverrides.jsx](docs/GUI.png)
 
