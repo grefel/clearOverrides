@@ -1,5 +1,6 @@
 ﻿//DESCRIPTION:Clear style overrides from Text, Tables or Objects
 //SCRIPTMENU:Clear overrides
+//This script is licensed under the GNU General Public License v3.0 https://www.gnu.org/licenses/gpl-3.0.txt
 //Project: https://github.com/grefel/clearOverrides
 //Contact: Gregor Fellenz - http://www.publishingx.de
 
