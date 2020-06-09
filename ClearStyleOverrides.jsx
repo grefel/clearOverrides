@@ -9,7 +9,7 @@ start();
 function start() {
     var px = {
         projectName: "Clear style overrides",
-        version: "2019-12-22-v1.1",
+        version: "2020-06-09-v1.2",
 
         // Default GUI configuration
         processText: true,
@@ -42,7 +42,7 @@ function start() {
     var scriptPrefVersion = app.scriptPreferences.version;
     app.scriptPreferences.version = parseInt(app.version);
     try {
-        processDok([dok, px]);
+        app.doScript(processDok, ScriptLanguage.JAVASCRIPT, [dok, px.toSource()], UndoModes.ENTIRE_SCRIPT, px.projectName);
     } catch (error) {
         alert("Error: " + error + " Line: " + error.line);
     }
@@ -59,7 +59,7 @@ function start() {
  */
 function processDok(args) {
     dok = args[0];
-    px = args[1];
+    px = eval(args[1]);
 
     if (px.processObjects) {
         var results = findOrChangeObject(dok, {}, null, true);
